@@ -29,6 +29,7 @@ class GuestLeadController extends Controller
                 'errors' => $validator->errors()
             ]);
         } else {
+
             $new_contact = new GuestLead();
             $new_contact->fill($form_data);
             $new_contact->save();
