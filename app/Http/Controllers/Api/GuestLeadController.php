@@ -7,8 +7,6 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use App\Models\GuestLead;
 use App\Mail\GuestContact;
-
-
 use Illuminate\Http\Request;
 
 class GuestLeadController extends Controller
