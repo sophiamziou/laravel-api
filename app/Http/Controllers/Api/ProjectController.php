@@ -19,8 +19,6 @@ class ProjectController extends Controller
     public function show($slug)
     {
         $project = Project::all()->where('slug', $slug)->first();
-
-
         if ($project) {
             return response()->json([
                 'success' => true,
